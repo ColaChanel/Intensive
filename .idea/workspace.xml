@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87f26b5-15dc-442c-a976-9aadbbe79723" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Friday/.idea/Friday.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Friday/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Friday/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Friday/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Friday/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="d87f26b5-15dc-442c-a976-9aadbbe79723" name="Changes" comment="adding info about friday">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,5 +53,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding info about friday" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding info about friday" />
   </component>
 </project>
