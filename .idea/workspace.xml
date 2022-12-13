@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d87f26b5-15dc-442c-a976-9aadbbe79723" name="Changes" comment="adding info about friday">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weekdays/Friday/Bread made from wheat flour/Хороший/67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Weekdays/Friday/Bread made from wheat flour/Хороший/67.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weekdays/Monday/Fresh seasonal fruits/Good/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Weekdays/Monday/Fresh seasonal fruits/Good/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weekdays/Tuesday/porridge/millet/good/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Weekdays/Tuesday/porridge/millet/good/19.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
