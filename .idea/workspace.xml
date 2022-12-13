@@ -6,167 +6,58 @@
   <component name="ChangeListManager">
     <list default="true" id="d87f26b5-15dc-442c-a976-9aadbbe79723" name="Changes" comment="adding folders food and drink">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Bad/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Coffe/Good/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Bad/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Bad/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Bad/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Bad/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Bad/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Bad/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Bad/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Bad/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/68.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/70.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/71.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/72.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/73.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Drink/Good/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Tea/Good/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Tea/Good/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Tea/Good/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Tea/Good/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Tea/Good/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Tea/Good/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks/Tea/Good/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Baked_cheese_omelet/Good/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Baked_cheese_omelet/Good/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Baked_cheese_omelet/Good/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Baked_cheese_omelet/Good/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Baked_cheese_omelet/Good/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Baked_cheese_omelet/Good/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Baked_cheese_omelet/Good/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Bread_made_from_wheat_flour/Good/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Bread_made_from_wheat_flour/Good/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Bread_made_from_wheat_flour/Good/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Bread_made_from_wheat_flour/Good/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Bread_made_from_wheat_flour/Good/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Bread_made_from_wheat_flour/Good/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Bread_made_from_wheat_flour/Good/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Bread_made_from_wheat_flour/Good/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Bread_made_from_wheat_flour/Good/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Cheese(cut)/Good/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Cheese/Bad/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Cheese/Good/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Fresh_seasonal_fruits/Good/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Mix/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Mix/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Mix/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Mix/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Mix/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Mix/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Mix/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Mix/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Mix/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/39.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Bad/47.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pasta_with_cheese/Good/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Pie_with_raisins/Good/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Porridge/Porridge_with_milk/Good/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Porridge/millet/Good/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Porridge/millet/Good/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Porridge/millet/Good/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Porridge/millet/Good/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Porridge/millet/Good/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Porridge/millet/Good/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Porridge/millet/Good/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Porridge/millet/Good/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Wheat flour bread/Bad/11 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Wheat flour bread/Good/11 (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Food/Wheat flour bread/Good/11 (11).jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
