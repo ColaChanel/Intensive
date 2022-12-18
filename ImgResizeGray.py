@@ -4,10 +4,14 @@ import os, sys
 from matplotlib import image
 from matplotlib.pyplot import show
 import numpy as np
+import pathlib
+from pathlib import Path
 
 
-sMainPath = "C:\\Users\\Интенсив\\Desktop\\data"
-sNewPath = "C:\\Users\\Интенсив\\Desktop\\NewData"
+dir_path = pathlib.Path.cwd()
+dir_path = str(dir_path)
+sMainPath = dir_path + '\\test1'
+sNewPath = dir_path + '\\Training'
 nameDrags = np.array(os.listdir(sMainPath))
 print(nameDrags)
 
@@ -23,5 +27,5 @@ for i in nameDrags:
             for z in files:
                 img = Image.open(FilesInDrags + "\\" + z)
                 img = img.resize((300, 300))
-                img = img.convert("L")
+                #img = img.convert("L")
                 img.save(sNewPath + "\\" + i + "\\"  + j + "\\"  + BadOrGood + "\\"  + z)
