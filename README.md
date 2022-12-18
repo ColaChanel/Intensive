@@ -12,3 +12,4 @@ We have to create Neural Network, wich detected quality of objects in photo of f
 - Nazar   (Nazari)      Kirilov
 - Artem   (zqwy01)      Sinitsyn
 - Danill  (Kar En Tuk)  Toropchin
+- Maksim  (PopovM-P)    Popov
