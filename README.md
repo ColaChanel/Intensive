@@ -13,3 +13,6 @@ We have to create Neural Network, wich detected quality of objects in photo of f
 - Artem   (zqwy01)      Sinitsyn
 - Danill  (Kar En Tuk)  Toropchin
 - Maksim  (PopovM-P)    Popov
+
+## Using
+Yolov5 - https://github.com/ultralytics/yolov5?ysclid=lbt77becrj660213062
