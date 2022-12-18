@@ -1,0 +1,22 @@
+names:
+- bread
+- butter
+- casserole
+- cheese
+- cheese_sandwich
+- coffee
+- fruit
+- omelet
+- pasta
+- porridge
+- tea
+nc: 11
+roboflow:
+  license: CC BY 4.0
+  project: foodfinders
+  url: https://universe.roboflow.com/project/foodfinders/dataset/2
+  version: 2
+  workspace: project
+test: ../test/images
+train: FoodFinders-2/train/images
+val: FoodFinders-2/valid/images
