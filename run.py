@@ -8,6 +8,9 @@ from PIL import Image
 import base64
 from io import BytesIO as _BytesIO
 import dash_io as dio
+import webbrowser
+from threading import Timer
+import os
 
 
 def b64_to_pil(string):
@@ -69,5 +72,10 @@ def update_output(content):
             ]
         return children
 
+def open_browser():
+    if not os.environ.get("WERKZEUG_RUN_MAIN"):
+        webbrowser.open('http://127.0.0.1:5000/')
+
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    Timer(1, open_browser).start()
+    app.run_server(debug=True, port=5000)
