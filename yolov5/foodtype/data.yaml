@@ -3,7 +3,7 @@ train: foodtype/train/images
 val: foodtype/valid/images
 
 nc: 7
-names: ['Хлеб', 'Бутерброд', 'Сыр', 'Кофе', 'Омлет', 'Каша', 'Чай']
+names: ['хлеб', 'бутерброд', 'сыр', 'кофе', 'омлет', 'каша', 'чай']
 
 roboflow:
   workspace: project

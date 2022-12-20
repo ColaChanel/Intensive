@@ -44,6 +44,17 @@ app.layout = html.Div([
     html.Div(id='output-image-upload'),
 ])
 
+def generate_table(dataframe, max_rows=10):
+    return html.Table([
+        html.Thead(
+            html.Tr([html.Th(col) for col in dataframe.columns])
+        ),
+        html.Tbody([
+            html.Tr([
+                html.Td(dataframe.iloc[i][col]) for col in dataframe.columns
+            ]) for i in range(min(len(dataframe), max_rows))
+        ])
+    ])
 
 @app.callback(Output('output-image-upload', 'children'),
               Input('upload-image', 'contents'))
@@ -54,6 +65,7 @@ def update_output(content):
         children = [
                 html.Img(src=content),
                 html.Img(src=image),
+                generate_table(data)
             ]
         return children
 
