@@ -3,8 +3,9 @@ import pandas as pd
 from PIL import Image
 
 
-def predict(image, model_path):
+def predict(image, model_path='yolov5/runs/train/exp/weights/best.pt'):
     model = torch.hub.load('yolov5', 'custom', model_path, source='local')
+    model.names = ['Хлеб', 'Бутерброд', 'Сыр', 'Кофе', 'Омлет', 'Каша', 'Чай']
 
     results = model(image)
     data = pd.DataFrame(results.pandas().xyxy[0])

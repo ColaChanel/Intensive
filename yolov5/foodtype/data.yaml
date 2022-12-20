@@ -1,0 +1,13 @@
+test: foodtype/test/images
+train: foodtype/train/images
+val: foodtype/valid/images
+
+nc: 7
+names: ['Хлеб', 'Бутерброд', 'Сыр', 'Кофе', 'Омлет', 'Каша', 'Чай']
+
+roboflow:
+  workspace: project
+  project: typefood
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/typefood/dataset/1

@@ -70,7 +70,7 @@ def run(
         name='exp',  # save results to project/name
         exist_ok=False,  # existing project/name ok, do not increment
         line_thickness=2,  # bounding box thickness (pixels)
-        hide_labels=False,  # hide labels
+        hide_labels=True,  # hide labels
         hide_conf=False,  # hide confidences
         half=False,  # use FP16 half-precision inference
         dnn=False,  # use OpenCV DNN for ONNX inference
