@@ -1,9 +1,6 @@
-import datetime
-
 from dash import Dash, dcc, html
-from dash.dependencies import Input, Output, State
+from dash.dependencies import Input, Output
 from NeuroUtils import NeuronetAPI
-import numpy as np
 from PIL import Image
 import base64
 from io import BytesIO as _BytesIO
@@ -20,31 +17,62 @@ def b64_to_pil(string):
 
     return im
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+external_stylesheets = ['assets/style.css']
+#external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 
-app.layout = html.Div([
-    dcc.Upload(
-        id='upload-image',
-        children=html.Div([
-            'Drag and Drop or ',
-            html.A('Select Files')
-        ]),
-        style={
-            'width': '100%',
-            'height': '60px',
-            'lineHeight': '60px',
-            'borderWidth': '1px',
-            'borderStyle': 'dashed',
-            'borderRadius': '5px',
-            'textAlign': 'center',
-            'margin': '10px'
-        },
-        # Allow multiple files to be uploaded
-        multiple=False
-    ),
-    html.Div(id='output-image-upload'),
+app.title = 'NeuroNet'
+
+app.layout = html.Div(className='root', children=[
+    html.Div(className='content',
+             children=[
+                 html.Div(className='left', id='left',
+                     children=[
+                        dcc.Upload(
+                                id='upload-image',
+                                children=html.Div([
+                                    'Перетащите файл сюда или ',
+                                    html.A('нажмите'), ', чтобы загрузить '
+                                ]),
+                                className='empty',
+                                # Allow multiple files to be uploaded
+                                multiple=False,
+                                accept='image/*'
+                            ),
+                     ]
+                 ),
+                html.Div(className='right',
+                         id='right',
+                         children=[
+                            html.Div(className='empty'),
+                         ]
+                ),
+                html.Div(id='table',
+                         children=html.Div(className='empty-table')
+                         ),
+             ]),
+
+    # '''dcc.Upload(
+    #     id='upload-image',
+    #     children=html.Div([
+    #         'Drag and Drop or ',
+    #         html.A('Select Files')
+    #     ]),
+    #     style={
+    #         'width': '100%',
+    #         'height': '60px',
+    #         'lineHeight': '60px',
+    #         'borderWidth': '1px',
+    #         'borderStyle': 'dashed',
+    #         'borderRadius': '5px',
+    #         'textAlign': 'center',
+    #         'margin': '10px'
+    #     },
+    #     # Allow multiple files to be uploaded
+    #     multiple=False
+    # ),'''
+    #html.Div(id='output-image-upload'),
 ])
 
 def generate_table(dataframe, max_rows=10):
@@ -59,18 +87,24 @@ def generate_table(dataframe, max_rows=10):
         ])
     ])
 
-@app.callback(Output('output-image-upload', 'children'),
-              Input('upload-image', 'contents'))
+@app.callback([Output('left', 'children'),
+              Output('right', 'children'),
+              Output('table', 'children')],
+              Input('upload-image', 'contents'),
+              prevent_initial_call=True)
 def update_output(content):
     if content is not None:
         encoded = dio.url_to_pillow(content)
-        (data,image) = NeuronetAPI.predict(encoded)
-        children = [
-                html.Img(src=content),
-                html.Img(src=image),
-                generate_table(data)
-            ]
-        return children
+        (data, image) = NeuronetAPI.predict(encoded)
+        content = [
+            dcc.Upload(id='upload-image',
+            children = [html.Img(src=content, className='neuroimg',)],
+            accept='image/*'
+            ),
+            html.Label('Нажмите на изображение для загрузки нового')
+        ]
+        img = [html.Img(src=image, className='neuroimg')]
+        return content, img, generate_table(data)
 
 def open_browser():
     if not os.environ.get("WERKZEUG_RUN_MAIN"):

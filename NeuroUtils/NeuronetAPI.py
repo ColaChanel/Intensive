@@ -28,10 +28,10 @@ def predict(image, model_path='yolov5/runs/train/exp/weights/best.pt'):
     BJG = BJG.rename(columns={'name': 'имя', 'squirrels': 'белки', 'fats': 'жиры', 'carbohydrates': 'углеводы',
                               'calories': 'калории'})
     df.drop(columns={'xmin', 'ymin', 'xmax', 'ymax', 'confidence', 'class'}, axis=1, inplace=True)
-
+    df=df.rename(columns={'name':'имя'})
     for index, row in df.iterrows():
         for index2, row2 in BJG.iterrows():
-            if row['name'] == row2['имя']:
+            if row['имя'] == row2['имя']:
                 df.at[index, 'белки'] = row2['белки']
                 df.at[index, 'жиры'] = row2['жиры']
                 df.at[index, 'углеводы'] = row2['углеводы']
