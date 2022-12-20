@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{ super() }}<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</br>
+<div align="center">
+    <div align="center" class="border">
+        <div class="header">
+            <h1 class="word">Register</h1>
+        </div></br>
+        <h2 class="word">
+            <form action="{{ url_for('register') }}" method="post">
+                <div class="msg">{{ msg }}</div>
+                <input id="username" name="username" type="text" placeholder="Enter Your Username" class="textbox"/></br>
+                <input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox"/></br>
+                <input id="email" name="email" type="text" placeholder="Enter Your Email ID" class="textbox"/></br>
+                <input type="submit" class="btn" value="Sign Up">
+            </form>
+        </h2>
+        <p class="bottom">Already have an account?  <a class="bottom" href="{{url_for('login')}}"> Sign In here</a></p>
+    </div>
+</div></br></br>
+<!--{% for cat, msg in get_flashed_messages(True) %}-->
+<!--<div class="flash {{cat}}">{{msg}}</div>-->
+<!--{% endfor %}-->
+<!--<form action="/register" method="post" class="form-contact">-->
+<!--    <p><label>Name: </label> <input type="text" name="name" value="" required/>-->
+<!--    <p><label>Email: </label> <input type="text" name="email" value="" required/>-->
+<!--    <p><label>Password: </label> <input type="password" name="psw" value="" required />-->
+<!--    <p><label>Password repeat: </label> <input type="password" name="psw2" value="" required />-->
+<!--    <p><input type="submit" value="Register" />-->
+<!--</form>-->
+{% endblock %}

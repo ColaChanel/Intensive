@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block content %}
+{{ super() }}
+<div class="wrapper row1">
+		<header id="header" class="hoc clear">
+		  <section>
+			<div><i class="fa fa-phone"></i>+91 93106 64561</div>
+			<div><h1 id="logo"><a href="index">International Undergraduate</a></h1></div>
+			<div class="clear" method="post" action="#">
+				<form class="clear" method="post" action="#">
+					<fieldset>
+						<legend>Search</legend>
+						<input type="search" value="" placeholder="Search Here&hellip;">
+						<button class="fa fa-search" type="sumbit" title="Search"><em>Search</em></button>
+					</fieldset>
+				</form>
+			</div>
+		  </section>
+          <nav id="mainav">
+			<ul class="clear">
+			  <li><a href="index">Home</a></li>
+        	  <li><a class="drop" href="../index#we">we</a>
+          	    <ul>
+          	      <li><a href="../index#news">News</a></li>
+              	  <li><a href="../index#about">About</a></li>
+              	  <li><a href="../index#gallery">Gallery</a></li>
+              	  <li><a href="../index#reviews">Reviews</a></li>
+              	  <li><a href="../index#cost">Cost</a></li>
+          	  	</ul>
+        	  </li>
+        	  <li><a class="drop" href="pages/parts">Parts of the world</a>
+          	    <ul>
+            	  <li><a class="drop" href="pages/america">America</a>
+            	  	<ul>
+            	  	  <li><a href="pages/usa">USA</a></li>
+            	  	  <li><a href="pages/canada">Canada</a></li>
+            	  	</ul>
+            	  </li>
+            	  <li><a class="drop" href="pages/europe">Europe</a>
+            	    <ul>
+                	  <li><a href="pages/west">West</a></li>
+                	  <li><a href="pages/east">East</a></li>
+              	    </ul>
+            	  </li>
+          	  	</ul>
+        	  </li>
+        	  <li><a href="pages/internships">Internships</a></li>
+        	  <li><a href="pages/scholarships">Scholarships</a></li>
+        	  <li><a href="pages/mentors">Mentors</a></li>
+        	  <li><a href="pages/articles">Articles</a></li>
+      		</ul>
+      	    </nav>
+      </header>
+	</div>
+{% for cat, msg in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+<form action="/contact" method="post" class="form-contact">
+    <p><label>Name: </label> <input type="text" name="username" value="" required/>
+    <p><label>Email: </label> <input type="text" name="email" value="" required/>
+    <p><label>Message: </label>
+    <p><textarea name="message" rows=7 cols=40></textarea>
+    <p><input type="submit" value="send"/>
+</form>
+{% endblock %}

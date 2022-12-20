@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% block content %}
+{{ super() }}
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <section> 
+      <div><i class="fa fa-phone"></i>+91 93106 64561</div>
+      <div>
+        <h1 id="logo"><a href="../index">International Undergraduate</a></h1>
+      </div>
+      <div>
+        <form class="clear" method="post" action="#">
+          <fieldset>
+            <legend>Search:</legend>
+            <input type="search" value="" placeholder="Search Here&hellip;">
+            <button class="fa fa-search" type="submit" title="Search"><em>Search</em></button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <nav id="mainav">
+      <ul class="clear">
+        <li><a href="../index">Home</a></li>
+        <li class="drop"><a class="drop" href="../index#we">we</a>
+          <ul>
+            <li><a href="../index#news">News</a></li>
+            <li><a href="../index#about">About</a></li>
+            <li><a href="../index#gallery">Gallery</a></li>
+            <li><a href="../index#review">Reviews</a></li>
+            <li><a href="../index#cost">Cost</a></li>
+          </ul>
+        </li>
+        <li class="active"><a class="drop" href="../pages/parts">Parts of the world</a>
+          <ul>
+            <li><a class="drop" href="../pages/america">America</a>
+              <ul>
+                <li><a href="../pages/usa">USA</a></li>
+                <li><a href="../pages/canada">Canada</a></li>
+              </ul>
+            </li>
+            <li><a class="drop" href="../pages/europe">Europe</a>
+              <ul>
+                <li><a href="../pages/west">West</a></li>
+                <li><a href="../pages/east">East</a></li>
+              </ul>
+            </li>
+          </ul>
+        <li><a href="../pages/internships">Internships</a></li>
+        <li><a href="../pages/scholarships">Scholarships</a></li>
+        <li><a href="../pages/mentors">Mentors</a></li>
+        <li><a href="../pages/articles">Articles</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content three_quarter first"> 
+      <!-- ################################################################################################ -->
+      <h1>Where we work</h1>
+      <img class="imgr borderedbox inspace-5" src="../static/images/arch-200x200.jpg" alt="">
+      <p>Now we work only with the most popular parts of the World. Such as Europe and America. In America we work with USA and Canada, and in Europe we work with popular countries as France, Germany, Britan, Spain, Italy, Austria, Poland and finally Russia </p>
+      <p>Why these countries? Because many students want to go to these countries, also in these countries there are very good scholarships from the state and large companies that are ready to hire directly while studying at prestigious universities</p>
+      <img class="imgl borderedbox inspace-5" src="../static/images/bisiness-200x200.jpg" alt="">
+      <p>We plan to expand the list of countries we work with and improve our community. <a href="#" title="Our company in International list">IU</a>. You can subscribe to our newsletters on this link <a href="#">Sub letters</a>.</p>
+      <p>In our newsletters we send you information about new programs and others ... </p>
+      <p>In your profile you can setting your newsletters.</p>
+      <h1>Table most popular programmms and universites in this programms</h1>
+      <div class="scrollable">
+        <table>
+          <thead>
+            <tr>
+              <th>IT</th>
+              <th>Design</th>
+              <th>Science</th>
+              <th>Medicine</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#">University 1</a></td>
+              <td><a href="#">University 1</a></td>
+              <td><a href="#">University 1</a></td>
+              <td><a href="#">University 1</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">University 2</a></td>
+              <td><a href="#">University 2</a></td>
+              <td><a href="#">University 2</a></td>
+              <td><a href="#">University 2</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">University 3</a></td>
+              <td><a href="#">University 3</a></td>
+              <td><a href="#">University 3</a></td>
+              <td><a href="#">University 3</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">University 4</a></td>
+              <td><a href="#">University 4</a></td>
+              <td><a href="#">University 4</a></td>
+              <td><a href="#">University 4</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="sidebar one_quarter"> 
+      <div class="sdb_holder">
+        <h6>Information about company</h6>
+        <address>
+        InternationlUndergraduate<br>
+        Address Line 1<br>
+        Address Line 2<br>
+        Town/City<br>
+        Postcode/Zip<br>
+        Tel: 91 93106 64561<br>
+        Email: <a href="#">IU@gmail.com</a>
+        </address>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </main>
+</div>
+{% endblock %}

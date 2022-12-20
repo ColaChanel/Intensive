@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% if title %}
+    <title>IU | {{title}}</title>
+    {% else %}
+    <title>IU</title>
+    {% endif %}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="{{ url_for('static', filename='styles/layout.css')}}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+    <div class="wrapper row0">
+	  <div id="topbar" class="hoc clear">
+		<ul class="nospace">
+			<li><i class="fa fa-envelope-o"></i>IU@gmail.COM</li>
+			<li><a href="../index"><i class="fa fa-home"></i></a></li>
+			<li><a href="../contact" title="Help Center"><i class="fa fa-life-ring"></i></a></li>
+			<li><a href="../login" title="Login"><i class="fa fa-lg fa-sign-in"></i></a></li>
+			<li><a href="../register" title="Sign Up"><i class="fa fa-lg fa-edit"></i></a></li>
+		</ul>
+	  </div>
+	</div>
+    {% block content %}
+
+    {% endblock %}
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear">
+    <div class="one_quarter first">
+      <h6 class="heading">Information</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+          Street Name &amp; Number, Town, Postcode/Zip
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> +91 93106 64561</li>
+        <li><i class="fa fa-envelope-o"></i> IU@gmail.com</li>
+      </ul>
+      <ul class="faico clear">
+        <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-dribble" href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Our partners</h6>
+      <ul class="nospace linklist">
+        <li><a href="#">Cola chanel</a></li>
+        <li><a href="#">Programmer fund</a></li>
+        <li><a href="#">Country fund</a></li>
+        <li><a href="#">LA investment</a></li>
+        <li><a href="#">StelsPair</a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Terms of creation</h6>
+      <article class="btmspace-30">
+        <h6 class="nospace font-x1"><a href="#">Base</a></h6>
+        <time class="smallfont" datetime="2022-05-11">Wednesday, 11<sup>th</sup> May 2022</time>
+        <p>We base our startup&hellip;</p>
+      </article>
+      <article>
+        <h6 class="nospace font-x1"><a href="#">Date start of work</a></h6>
+        <time class="smallfont" datetime="2045-04-05">...<sup>th</sup> ...</time>
+        <p>In process&hellip;</p>
+      </article>
+    </div>
+  </footer>
+</div>
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear">
+    <p class="fl_left">Copyright &copy; 2022 - All Rights Reserved - <a href="#">IUstats</a></p>
+    <p class="fl_right">Create by <a target="_blank" href="#" title="Free international universities"> IU works</a></p>
+  </div>
+</div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="{{ url_for('static', filename='scripts/jquery.min.js')}}"></script>
+<script src="{{ url_for('static', filename='scripts/jquery.backtotop.js')}}"></script>
+<script src="{{ url_for('static', filename='scripts/jquery.mobilemenu.js')}}"></script>
+
+</body>
+</html>

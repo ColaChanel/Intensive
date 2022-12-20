@@ -1,0 +1,7 @@
+Настройка MySQL
+pip3 install flask
+pip3 install flask-mysqldb
+Запускаем через конфигурацию сервер mysql
+прописываем password: 1234567890admin
+для проверки работы сервера используем: MySQL 8.0 Command Line Client
+pip install flask-sqlalchemy
