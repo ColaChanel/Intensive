@@ -25,6 +25,7 @@ app = Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = 'NeuroNet'
 
 app.layout = html.Div(className='root', children=[
+    #html.Div(children=html.Img(src='assets/'), className='icodiv'),
     html.H1('NeuroNet', className='hb'),
     html.Div(className='content',
              children=[
@@ -53,7 +54,11 @@ app.layout = html.Div(className='root', children=[
                          children=html.Div(className='empty-table', children=html.Label('БЖУ таблица', className='labelc'))
                          ),
              ]),
-
+            html.Div('Разработчики: Игорь (ColaChanel) Коновалов,'
+                     ' Данилл (X_O_R_S) Шаманаев,'
+                     ' Назари (Nazari) Кирилов,'
+                     ' Артём (zqwy01) Синицын,'
+                     ' Даниил (Kar En Tuk) Торопчин', className='neurofooter')
     # '''dcc.Upload(
     #     id='upload-image',
     #     children=html.Div([

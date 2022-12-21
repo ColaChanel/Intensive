@@ -50,6 +50,7 @@
 
 * {
     transition: 0.6s all;
+    text-align: center;
 }
 
 .label-table {
@@ -72,11 +73,28 @@ body{
     font-family: Bahnschrift;
     position: fixed;
     display: block;
-    background: #cdcdcd;
+    background-color: #cdcdcd;
+    background-image: url('../assets/back.jpg');
+    background-size: 100% auto;
+    background-blend-mode: multiply;
+
+    /*background-blend-mode: screen;*/
+
+    /*mix-blend-mode: exclusion;*/
+
+    /*mix-blend-mode:  difference;*/
+
+    /*mix-blend-mode: multiply;*/
+
+    opacity: 0.9;
+
+
     /* animation-name: helpAnim;
     animation-duration: 0.001s;
     animation-iteration-count: infinite; */
 }
+
+
 .content {
     display: flex;
     justify-content: space-around;
@@ -92,7 +110,7 @@ body{
     height: auto;
     max-width: 33vw;
     max-height: 50vh;
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
     padding: 15px;
     border-radius: 5px;
     margin: 10px;
@@ -101,13 +119,17 @@ body{
     animation: 0.1s img_start;
 }
 
+.neuroimg:hover {
+    transform: scale(1.02);
+}
+
 img {
     border-radius: 5px;
 }
 
 #table {
-    border: 1px dashed black;
-    width: auto;
+    /*border: 1px dashed black;*/
+    width: 28vw;
     /*min-height:89.3%;*/
     height:86%;
     padding: 15px;
@@ -117,10 +139,14 @@ img {
     box-shadow: 0 0 10px #444;
 }
 
+#table:hover {
+    transform: scale(1.02);
+}
+
 .empty {
     height: 50vh;
     width: 25vw;
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
     padding: 15px;
     border-radius: 5px;
     margin: 10px;
@@ -130,6 +156,11 @@ img {
     background-color:#efefef;
     box-shadow: 0 0 10px #444;
 }
+
+.empty:hover {
+    transform: scale(1.02);
+}
+
 .empty-table {
     height: 50vh;
     width: 25vw;
@@ -138,6 +169,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.icodiv {
+
 }
 
 table {
@@ -182,8 +217,27 @@ a {
     
 
 }
+.neurofooter {
+    background-color:#efefef;
+    box-shadow: 0 0 10px #444;
+    /*border: 1px dashed black;*/
+    padding: 20px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin: 10px;
+    position: fixed;
+    bottom: -5%;
+    text-align: center;
+}
+.neurofooter:hover {
+    margin-bottom: 45px ;
+}
 .hb {
-    font-size: 40px;
+    font-size: 4rem;
+    font-weight: 200;
+    position: absolute;
+    top: 1%;
+    animation: 0.6s start ease-in-out;
 }
 .labelc {
     font-size: 18px;
@@ -336,6 +390,22 @@ input[type=file]
     padding: 5px;
     border: 1px solid black;
     animation: 0.4s img_start ease-in-out;
+}
+
+@keyframes start
+{
+    0%
+    {
+        transform: skew(40grad);
+    }
+    75%
+    {
+        transform: skew(10grad);
+    }
+    100%
+    {
+        transform: skew(0grad);
+    }
 }
 
 @keyframes img_start 
