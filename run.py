@@ -25,6 +25,7 @@ app = Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = 'NeuroNet'
 
 app.layout = html.Div(className='root', children=[
+    html.H1('NeuroNet', className='hb'),
     html.Div(className='content',
              children=[
                  html.Div(className='left', id='left',
@@ -45,11 +46,11 @@ app.layout = html.Div(className='root', children=[
                 html.Div(className='right',
                          id='right',
                          children=[
-                            html.Div(className='empty'),
+                            html.Div(className='empty', children=html.Label('Результат', className='labelc')),
                          ]
                 ),
                 html.Div(id='table',
-                         children=html.Div(className='empty-table')
+                         children=html.Div(className='empty-table', children=html.Label('БЖУ таблица', className='labelc'))
                          ),
              ]),
 
@@ -103,8 +104,12 @@ def update_output(content):
             ),
             html.Label('Нажмите на изображение для загрузки нового')
         ]
-        img = [html.Img(src=image, className='neuroimg')]
-        return content, img, generate_table(data)
+        img = [html.Img(src=image, className='neuroimg'),html.Label('Результат')]
+        table = [
+            generate_table(data),
+            html.Label('Данные БЖУ таблицы на 100 грамм', className='label-table'),
+        ]
+        return content, img, table
 
 def open_browser():
     if not os.environ.get("WERKZEUG_RUN_MAIN"):
