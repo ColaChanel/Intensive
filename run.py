@@ -117,4 +117,4 @@ def update_output(content):
         return content, img, table
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=5000)
+    app.run_server(debug=False, port=5000)
