@@ -116,5 +116,10 @@ def update_output(content):
         ]
         return content, img, table
 
+def open_browser():
+    if not os.environ.get("WERKZEUG_RUN_MAIN"):
+        webbrowser.open('http://127.0.0.1:5000/')
+
 if __name__ == '__main__':
-    app.run_server(debug=False, port=5000)
+    Timer(1, open_browser).start()
+    app.run_server(debug=True, port=5000)
