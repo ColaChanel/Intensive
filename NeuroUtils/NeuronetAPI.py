@@ -30,6 +30,7 @@ def predict(image, model_path='yolov5/runs/train/exp/weights/best.pt'):
     df.drop(columns={'xmin', 'ymin', 'xmax', 'ymax', 'confidence', 'class'}, axis=1, inplace=True)
     df=df.rename(columns={'name':'имя'})
     df = df.drop_duplicates()
+    df['качество'] = 'хорошее'
     for index, row in df.iterrows():
         for index2, row2 in BJG.iterrows():
             if row['имя'] == row2['имя']:
