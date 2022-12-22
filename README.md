@@ -16,3 +16,5 @@ We have to create Neural Network, wich detected quality of objects in photo of f
 
 ## Using
 Yolov5 - https://github.com/ultralytics/yolov5?ysclid=lbt77becrj660213062
+
+![image](https://user-images.githubusercontent.com/47081014/209091038-b5fdd4b8-aa99-44cc-bc38-c527d587cf85.png)
