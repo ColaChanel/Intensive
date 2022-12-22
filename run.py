@@ -110,10 +110,12 @@ def update_output(content):
             html.Label('Нажмите на изображение для загрузки нового')
         ]
         img = [html.Img(src=image, className='neuroimg'),html.Label('Результат')]
-        table = [
-            generate_table(data),
-            html.Label('Данные БЖУ таблицы на 100 грамм', className='label-table'),
-        ]
+        table=html.Div(className='empty-table', children=html.Label('БЖУ таблица', className='labelc'))
+        if not data.empty:
+            table = [
+                generate_table(data),
+                html.Label('Данные БЖУ таблицы на 100 грамм', className='label-table'),
+            ]
         return content, img, table
 
 def open_browser():
