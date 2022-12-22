@@ -10,6 +10,10 @@ We have to create Neural Network, wich detected quality of objects in photo of f
 
 ![image](https://user-images.githubusercontent.com/47081014/209091797-7d448fb2-a1b2-4603-a179-885efe1f9f10.png)
 
+## Docker using
+
+URL - https://hub.docker.com/r/zqwy01/neuro_food/tags
+
 ## Credits
 
 - Igor    (ColaChanel)  Konovalov
