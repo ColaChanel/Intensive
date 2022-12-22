@@ -8,7 +8,7 @@ We have to create Neural Network, wich detected quality of objects in photo of f
 
 ## Results
 
-![image](https://user-images.githubusercontent.com/47081014/209091038-b5fdd4b8-aa99-44cc-bc38-c527d587cf85.png)
+![image](https://user-images.githubusercontent.com/47081014/209091797-7d448fb2-a1b2-4603-a179-885efe1f9f10.png)
 
 ## Credits
 
