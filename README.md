@@ -20,7 +20,7 @@ URL - https://hub.docker.com/r/zqwy01/neuro_food/tags
 - Danill  (X_O_R_S)     Shamanaev 
 - Nazar   (Nazari)      Kirilov
 - Artem   (zqwy01)      Sinitsyn
-- Danill  (Kar En Tuk)  Toropchin
+- Daniil  (Kar En Tuk)  Toropchin
 - Maksim  (PopovM-P)    Popov
 
 ## Using
