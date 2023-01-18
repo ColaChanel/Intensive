@@ -1,6 +1,6 @@
 # Intensive
 
-This is the project creating by group of 4 students, in Students incubator. Main topic is:
+This is the project creating by group of 5 students, in Students incubator. Main topic is:
 
 ## Intesive president's breakfast
 
