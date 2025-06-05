@@ -119,9 +119,11 @@ def update_output(content):
         return content, img, table
 
 def open_browser():
-    if not os.environ.get("WERKZEUG_RUN_MAIN"):
-        webbrowser.open('http://127.0.0.1:5000/')
+    if os.environ.get("RUNNING_IN_DOCKER") != "true":
+        if not os.environ.get("WERKZEUG_RUN_MAIN"):
+            webbrowser.open('http://127.0.0.1:5000/')
 
 if __name__ == '__main__':
-    Timer(1, open_browser).start()
-    app.run(debug=False, port=5000)
+    if os.environ.get("RUNNING_IN_DOCKER") != "true":
+        Timer(1, open_browser).start()
+    app.run(debug=False, host='0.0.0.0', port=5000)

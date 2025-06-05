@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 
 def predict(image, model_path='yolov5/runs/train/exp/weights/best.pt'):
     model = torch.hub.load('yolov5', 'custom', model_path, source='local')
-    my_custom_names = ['хлеб', 'каша', 'запеканка', 'кофе', 'бутерброд', 'сыр', 'фрукты', 'омлет', 'паста', 'масло', 'чай']
+    my_custom_names = ['хлеб', 'каша', 'запеканка', 'кофе', 'запеканка', 'каша', 'кофе', 'омлет', 'паста', 'масло', 'чай']
+    model.conf = 0.5
     model.names = my_custom_names
     results = model(image)
     data = pd.DataFrame(results.pandas().xyxy[0])

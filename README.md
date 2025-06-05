@@ -12,7 +12,7 @@ We have to create Neural Network, wich detected quality of objects in photo of f
 
 ## Docker using
 
-URL - https://hub.docker.com/r/zqwy01/neuro_food/tags
+URL - https://hub.docker.com/r/colachannel/intensive/tags
 
 ## Credits
 

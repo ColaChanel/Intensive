@@ -99,3 +99,4 @@ urllib3==2.4.0
 wcwidth==0.2.13
 Werkzeug==3.0.6
 zipp==3.22.0
+setuptools>=70.0.0
