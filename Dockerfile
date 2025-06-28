@@ -6,15 +6,15 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
-
-COPY . .
-
-
+COPY requirements.txt
 RUN pip install --upgrade pip \ 
     && pip install -r requirements.txt
 
 EXPOSE 5000
 ENV RUNNING_IN_DOCKER=true
+
+WORKDIR /app
+
+COPY . .
 
 CMD ["python", "run.py"]
